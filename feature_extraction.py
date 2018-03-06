@@ -1,6 +1,10 @@
 import pickle
 import tensorflow as tf
 # TODO: import Keras layers you need here
+from keras.models import Sequential
+from keras.layers.core import Dense, Activation, Flatten, Dropout
+from keras.layers.convolutional import Convolution2D
+import keras
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
@@ -46,6 +50,7 @@ def main(_):
     # the dataset
     # 10 for cifar10
     # 43 for traffic
+    
 
     # TODO: train your model here
 

@@ -5,3 +5,4 @@ bottlenecks
 *.p
 *.zip
 from-git/
+from-link/
